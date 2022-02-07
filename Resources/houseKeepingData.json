@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "お風呂の洗い方",
+        "category": "お風呂",
+        "step": ["Suscipit", "inceptos"]
+    },
+    {
+        "id": 2,
+        "name": "お皿の洗い方",
+        "category": "キッチン",
+        "step": ["Suscipit", "inceptos"]
+    }
+]
