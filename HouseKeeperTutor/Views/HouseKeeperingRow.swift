@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct HouseKeeperingRow: View {
+    @EnvironmentObject var modelData: ModelData
+    var houseKeeping: HouseKeeping
     var body: some View {
-        Text("Hello, HouseKeeping")
+        Text(houseKeeping.name)
     }
 }
 
 struct HouseKeeperingRow_Previews: PreviewProvider {
     static var previews: some View {
-        HouseKeeperingRow()
+        HouseKeeperingRow(houseKeeping: ModelData().houseKeepings[0])
+            .environmentObject(ModelData())
     }
 }

@@ -31,6 +31,7 @@
 		DA5C13A327B14DD3009E2CE0 /* houseKeepingData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */; };
 		DA5C13A427B14DD3009E2CE0 /* houseKeepingData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */; };
 		DA5C13A727B14F67009E2CE0 /* HouseKeeping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13A627B14F67009E2CE0 /* HouseKeeping.swift */; };
+		DA5C13A927B15101009E2CE0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13A827B15101009E2CE0 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		DA5C139F27B14C88009E2CE0 /* HouseKeeperingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeperingRow.swift; sourceTree = "<group>"; };
 		DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = houseKeepingData.json; sourceTree = "<group>"; };
 		DA5C13A627B14F67009E2CE0 /* HouseKeeping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeping.swift; sourceTree = "<group>"; };
+		DA5C13A827B15101009E2CE0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				DA5C13A627B14F67009E2CE0 /* HouseKeeping.swift */,
+				DA5C13A827B15101009E2CE0 /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 			files = (
 				DA5C13A027B14C88009E2CE0 /* HouseKeeperingRow.swift in Sources */,
 				DA5C133027B14A5B009E2CE0 /* ContentView.swift in Sources */,
+				DA5C13A927B15101009E2CE0 /* ModelData.swift in Sources */,
 				DA5C13A727B14F67009E2CE0 /* HouseKeeping.swift in Sources */,
 				DA5C132E27B14A5B009E2CE0 /* HouseKeeperTutorApp.swift in Sources */,
 			);
