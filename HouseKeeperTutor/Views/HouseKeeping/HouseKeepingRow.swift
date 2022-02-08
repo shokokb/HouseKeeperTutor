@@ -1,5 +1,5 @@
 //
-//  HouseKeeperingRow.swift
+//  HouseKeepeingRow.swift
 //  HouseKeeperTutor
 //
 //  Created by Shoko KOBAYASHI on 2022/02/07.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HouseKeeperingRow: View {
+struct HouseKeepingRow: View {
     @EnvironmentObject var modelData: ModelData
     var houseKeeping: HouseKeeping
     var body: some View {
@@ -15,9 +15,10 @@ struct HouseKeeperingRow: View {
     }
 }
 
-struct HouseKeeperingRow_Previews: PreviewProvider {
+struct
+    HouseKeepingRow_Previews: PreviewProvider {
     static var previews: some View {
-        HouseKeeperingRow(houseKeeping: ModelData().houseKeepings[0])
+        HouseKeepingRow(houseKeeping: ModelData().houseKeepings[0])
             .environmentObject(ModelData())
     }
 }

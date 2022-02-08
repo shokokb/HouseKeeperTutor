@@ -17,7 +17,6 @@
 		DA5C134F27B14A5D009E2CE0 /* HouseKeeperTutor WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA5C134E27B14A5D009E2CE0 /* HouseKeeperTutor WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DA5C135427B14A5E009E2CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5C135327B14A5E009E2CE0 /* Assets.xcassets */; };
 		DA5C135A27B14A5E009E2CE0 /* HouseKeeperTutor WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA5C135927B14A5E009E2CE0 /* HouseKeeperTutor WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DA5C135F27B14A5E009E2CE0 /* HouseKeeperTutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C135E27B14A5E009E2CE0 /* HouseKeeperTutorApp.swift */; };
 		DA5C136127B14A5E009E2CE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C136027B14A5E009E2CE0 /* ContentView.swift */; };
 		DA5C136327B14A5E009E2CE0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C136227B14A5E009E2CE0 /* NotificationController.swift */; };
 		DA5C136527B14A5E009E2CE0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C136427B14A5E009E2CE0 /* NotificationView.swift */; };
@@ -27,12 +26,21 @@
 		DA5C137827B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C137727B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppTests.swift */; };
 		DA5C138227B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C138127B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppUITests.swift */; };
 		DA5C138427B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C138327B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppUITestsLaunchTests.swift */; };
-		DA5C13A027B14C88009E2CE0 /* HouseKeeperingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C139F27B14C88009E2CE0 /* HouseKeeperingRow.swift */; };
+		DA5C13A027B14C88009E2CE0 /* HouseKeepingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C139F27B14C88009E2CE0 /* HouseKeepingRow.swift */; };
 		DA5C13A327B14DD3009E2CE0 /* houseKeepingData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */; };
-		DA5C13A427B14DD3009E2CE0 /* houseKeepingData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */; };
 		DA5C13A727B14F67009E2CE0 /* HouseKeeping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13A627B14F67009E2CE0 /* HouseKeeping.swift */; };
 		DA5C13A927B15101009E2CE0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13A827B15101009E2CE0 /* ModelData.swift */; };
-		DA5C13AC27B15643009E2CE0 /* HouseKeepingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13AB27B15643009E2CE0 /* HouseKeepingList.swift */; };
+		DA5C13B127B202E6009E2CE0 /* HouseKeepingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C139F27B14C88009E2CE0 /* HouseKeepingRow.swift */; };
+		DA5C13B327B20302009E2CE0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13A827B15101009E2CE0 /* ModelData.swift */; };
+		DA5C13B427B20302009E2CE0 /* HouseKeeping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13A627B14F67009E2CE0 /* HouseKeeping.swift */; };
+		DA5C13B527B2031E009E2CE0 /* houseKeepingData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */; };
+		DA5C13B927B2066E009E2CE0 /* HouseKeepingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13B827B2066E009E2CE0 /* HouseKeepingDetail.swift */; };
+		DA5C13BA27B2066E009E2CE0 /* HouseKeepingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13B827B2066E009E2CE0 /* HouseKeepingDetail.swift */; };
+		DA5C13BC27B218C0009E2CE0 /* HouseKeepingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13BB27B218C0009E2CE0 /* HouseKeepingList.swift */; };
+		DA5C13BD27B218C0009E2CE0 /* HouseKeepingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13BB27B218C0009E2CE0 /* HouseKeepingList.swift */; };
+		DA5C13BF27B21F03009E2CE0 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13BE27B21F03009E2CE0 /* TitleView.swift */; };
+		DA5C13C127B22A55009E2CE0 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C13BE27B21F03009E2CE0 /* TitleView.swift */; };
+		DA5C13C227B22FA1009E2CE0 /* HouseKeeperTutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C132D27B14A5B009E2CE0 /* HouseKeeperTutorApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,7 +127,6 @@
 		DA5C134E27B14A5D009E2CE0 /* HouseKeeperTutor WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HouseKeeperTutor WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C135327B14A5E009E2CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5C135927B14A5E009E2CE0 /* HouseKeeperTutor WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HouseKeeperTutor WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA5C135E27B14A5E009E2CE0 /* HouseKeeperTutorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeperTutorApp.swift; sourceTree = "<group>"; };
 		DA5C136027B14A5E009E2CE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA5C136227B14A5E009E2CE0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		DA5C136427B14A5E009E2CE0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
@@ -133,11 +140,13 @@
 		DA5C137D27B14A5F009E2CE0 /* HouseKeeperTutor WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HouseKeeperTutor WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C138127B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeperTutor_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		DA5C138327B14A5F009E2CE0 /* HouseKeeperTutor_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeperTutor_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DA5C139F27B14C88009E2CE0 /* HouseKeeperingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeperingRow.swift; sourceTree = "<group>"; };
+		DA5C139F27B14C88009E2CE0 /* HouseKeepingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingRow.swift; sourceTree = "<group>"; };
 		DA5C13A227B14DD3009E2CE0 /* houseKeepingData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = houseKeepingData.json; sourceTree = "<group>"; };
 		DA5C13A627B14F67009E2CE0 /* HouseKeeping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeeping.swift; sourceTree = "<group>"; };
 		DA5C13A827B15101009E2CE0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		DA5C13AB27B15643009E2CE0 /* HouseKeepingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingList.swift; sourceTree = "<group>"; };
+		DA5C13B827B2066E009E2CE0 /* HouseKeepingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingDetail.swift; sourceTree = "<group>"; };
+		DA5C13BB27B218C0009E2CE0 /* HouseKeepingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HouseKeepingList.swift; path = HouseKeeperTutor/Views/HouseKeeping/HouseKeepingList.swift; sourceTree = SOURCE_ROOT; };
+		DA5C13BE27B21F03009E2CE0 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +198,6 @@
 		DA5C132127B14A5B009E2CE0 = {
 			isa = PBXGroup;
 			children = (
-				DA5C13A527B14F00009E2CE0 /* Model */,
-				DA5C13A127B14D89009E2CE0 /* Resources */,
 				DA5C132C27B14A5B009E2CE0 /* HouseKeeperTutor */,
 				DA5C133D27B14A5D009E2CE0 /* HouseKeeperTutorTests */,
 				DA5C134727B14A5D009E2CE0 /* HouseKeeperTutorUITests */,
@@ -220,8 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				DA5C132D27B14A5B009E2CE0 /* HouseKeeperTutorApp.swift */,
+				DA5C13A527B14F00009E2CE0 /* Model */,
 				DA5C139E27B14C35009E2CE0 /* Views */,
 				DA5C133127B14A5D009E2CE0 /* Assets.xcassets */,
+				DA5C13A127B14D89009E2CE0 /* Resources */,
 				DA5C133327B14A5D009E2CE0 /* Preview Content */,
 			);
 			path = HouseKeeperTutor;
@@ -263,7 +272,6 @@
 		DA5C135D27B14A5E009E2CE0 /* HouseKeeperTutor WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DA5C135E27B14A5E009E2CE0 /* HouseKeeperTutorApp.swift */,
 				DA5C136027B14A5E009E2CE0 /* ContentView.swift */,
 				DA5C136227B14A5E009E2CE0 /* NotificationController.swift */,
 				DA5C136427B14A5E009E2CE0 /* NotificationView.swift */,
@@ -304,6 +312,7 @@
 		DA5C139E27B14C35009E2CE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DA5C13BE27B21F03009E2CE0 /* TitleView.swift */,
 				DA5C13AA27B15619009E2CE0 /* HouseKeeping */,
 				DA5C132F27B14A5B009E2CE0 /* ContentView.swift */,
 			);
@@ -330,8 +339,9 @@
 		DA5C13AA27B15619009E2CE0 /* HouseKeeping */ = {
 			isa = PBXGroup;
 			children = (
-				DA5C139F27B14C88009E2CE0 /* HouseKeeperingRow.swift */,
-				DA5C13AB27B15643009E2CE0 /* HouseKeepingList.swift */,
+				DA5C13BB27B218C0009E2CE0 /* HouseKeepingList.swift */,
+				DA5C139F27B14C88009E2CE0 /* HouseKeepingRow.swift */,
+				DA5C13B827B2066E009E2CE0 /* HouseKeepingDetail.swift */,
 			);
 			path = HouseKeeping;
 			sourceTree = "<group>";
@@ -555,7 +565,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5C135427B14A5E009E2CE0 /* Assets.xcassets in Resources */,
-				DA5C13A427B14DD3009E2CE0 /* houseKeepingData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +572,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5C13B527B2031E009E2CE0 /* houseKeepingData.json in Resources */,
 				DA5C136C27B14A5F009E2CE0 /* Preview Assets.xcassets in Resources */,
 				DA5C136927B14A5F009E2CE0 /* Assets.xcassets in Resources */,
 			);
@@ -589,12 +599,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5C13AC27B15643009E2CE0 /* HouseKeepingList.swift in Sources */,
-				DA5C13A027B14C88009E2CE0 /* HouseKeeperingRow.swift in Sources */,
+				DA5C13A027B14C88009E2CE0 /* HouseKeepingRow.swift in Sources */,
+				DA5C13B927B2066E009E2CE0 /* HouseKeepingDetail.swift in Sources */,
+				DA5C13BC27B218C0009E2CE0 /* HouseKeepingList.swift in Sources */,
 				DA5C133027B14A5B009E2CE0 /* ContentView.swift in Sources */,
 				DA5C13A927B15101009E2CE0 /* ModelData.swift in Sources */,
 				DA5C13A727B14F67009E2CE0 /* HouseKeeping.swift in Sources */,
 				DA5C132E27B14A5B009E2CE0 /* HouseKeeperTutorApp.swift in Sources */,
+				DA5C13BF27B21F03009E2CE0 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,11 +631,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5C13BD27B218C0009E2CE0 /* HouseKeepingList.swift in Sources */,
+				DA5C13B427B20302009E2CE0 /* HouseKeeping.swift in Sources */,
 				DA5C136327B14A5E009E2CE0 /* NotificationController.swift in Sources */,
 				DA5C136127B14A5E009E2CE0 /* ContentView.swift in Sources */,
+				DA5C13B327B20302009E2CE0 /* ModelData.swift in Sources */,
 				DA5C136727B14A5E009E2CE0 /* ComplicationController.swift in Sources */,
-				DA5C135F27B14A5E009E2CE0 /* HouseKeeperTutorApp.swift in Sources */,
+				DA5C13B127B202E6009E2CE0 /* HouseKeepingRow.swift in Sources */,
+				DA5C13C127B22A55009E2CE0 /* TitleView.swift in Sources */,
 				DA5C136527B14A5E009E2CE0 /* NotificationView.swift in Sources */,
+				DA5C13BA27B2066E009E2CE0 /* HouseKeepingDetail.swift in Sources */,
+				DA5C13C227B22FA1009E2CE0 /* HouseKeeperTutorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,8 +819,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HouseKeeperTutor WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "HouseKeeperTutor WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "家事の仕方";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = HouseKeeperTutor_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -832,8 +850,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HouseKeeperTutor WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "HouseKeeperTutor WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "家事の仕方";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = HouseKeeperTutor_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (

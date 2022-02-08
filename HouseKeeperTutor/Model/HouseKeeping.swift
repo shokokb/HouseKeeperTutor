@@ -6,8 +6,8 @@
 //
 
 import Foundation
-//import SwiftUI
-//import CoreLocation
+import SwiftUI
+import CoreLocation
 
 struct HouseKeeping: Hashable, Codable, Identifiable {
     var id: Int

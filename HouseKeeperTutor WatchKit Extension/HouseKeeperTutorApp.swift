@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct HouseKeeperTutorApp: App {
+    @StateObject private var modelData = ModelData()
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
                 ContentView()
+                    .environmentObject(modelData)
             }
         }
 
